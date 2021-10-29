@@ -1,0 +1,118 @@
+/*
+style.css
+---------
+ */
+
+ /* Main text elements */
+.title0
+{
+	font-size: 14px;
+}
+ 
+.title1
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.title2
+{
+	font-weight:bold;
+	font-size: 16px;
+	font-style:italic;
+}
+.text1
+{
+	font-weight:bold;
+	font-size: 16px;
+	text-align:justify;
+	line-height:1.5em;
+	color:black;
+	background-color: rgba(255,255,255, .5);
+}	
+
+
+body
+{
+	font-family: Arial;
+	background-image: url('https://www.scinexx.de/wp-content/uploads/d/o/doppelselfiegg.jpg');
+	background-position: center-left;
+	background-size: cover;
+}
+
+
+/* Header */
+
+header
+{    
+    text-align: center;
+}
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: none;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+#photo
+{
+    text-align: center;
+	color: black;
+	font-weight: bold;
+}
+#text1
+{
+    display: flex;
+    margin-bottom: 10px;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 900px;
+    flex: 2;
+}
+
+aside img
+{
+    margin-right: 5px;
+
+}
+
+
+/* Footer */
+footer
+{
+    display: flex;
+    justify-content: center;
+	position: fixed;
+	padding: 0px 0px 0px 0px;
+	bottom: 0;
+	width: 100%;
+	/* Height of the footer*/ 
+	height: 40px;
+    background-color: rgba(255,255,255, .5);
+    color: black;
+	font-weight: bold;
+	
+}
+
+
