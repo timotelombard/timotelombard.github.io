@@ -115,4 +115,18 @@ footer
 	
 }
 
-
+.partiegauche{
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+  
+.partiecentre{
+    width: 300px;
+    float: left;
+}
+  
+.partiedroite{
+    width: 300px;
+    float: left;
+}
